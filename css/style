@@ -1,0 +1,45 @@
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #352e28;
+  transition: all 1.5s;
+}
+#bookmarkAddress{
+    font-family: 'Righteous', cursive;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.icon1{
+  color: #41A55B;
+}
+.icon2{
+color: #B2AB49;
+}
+.sign{
+  border: none;
+  border-top:black 3px dotted;
+  border-bottom:black 3px dotted;
+}
+body{
+  background-color: #F7ECDE;
+  overflow: auto;
+}
+.backGroSuccess{
+  background-color:#9eb23b ;
+  border: none;
+}
+.backGroDanger{
+  background-color:#eb1d36 ;
+  border: none;
+}
+.submit{
+  background-color: #d1512d;
+  border: none;
+}
+h1:hover{
+  transform: scale(1.12);
+  color:#d1512d;
+}
